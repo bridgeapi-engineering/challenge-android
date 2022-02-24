@@ -1,16 +1,14 @@
 # challenge-android
 
-Le challenge vise à créer une application Android affichant la liste des catégories et sous catégories de dépenses et d'entrées d'argent de Bankin'
+Le challenge vise à créer une application Android affichant une liste de catégories.\
+Au clic sur l'une d'elle, il faudra afficher une seconde liste contenant les sous-catégories associées.
 
-Le choix de l'architecture et des méthodes est laissée à l'appréciation du candidat.
+Une architecture de type MVVM sera apprécié.\
+Pour le reste il n'y a pas de contrainte sur les technologies utilisées.
 
-Le test a pour but de créer une application avec 2 activités : 
-- La première sera une liste regroupant les catégories principales.
-- La seconde sera une liste des sous-catégories correspondant à la catégorie principale cliquée.
-
-Le fichier JSON ne doit pas être embarqué dans l'application mais obtenu grâce à un appel réseau, il est disponible ici : https://raw.githubusercontent.com/bankin-engineering/challenge-android/master/categories.json
+Les catégories devront être récupérées depuis ce fichier (il ne doit pas être embarqué dans l'application) : https://raw.githubusercontent.com/bankin-engineering/challenge-android/master/categories.json
 
 **Bonus :**
-La donnée doit être enregistrée dans une base de données locale, qui doit être utilisé dans les deux activités.
+Rendre l'application utilisable offline (sauvegarde locale des catégories).
 
-Il n'y a pas de contraintes particulières de design. Nous regarderons ici l'architecture employée et la qualité du code. 
+Il n'y a pas de contraintes particulières de design. Fais toi plaisir !
